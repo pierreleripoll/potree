@@ -4,7 +4,7 @@ name: build-push-deploy
 'on':
   push:
     branches:
-      - dev
+      - develop
       - main
     tags: ['v*.*.*']
 
